@@ -1,0 +1,33 @@
+{
+  "name": "webpack-renamechunk-plugin",
+  "version": "0.0.1",
+  "description": "Webpack plugin to rename split chunks before emitting files",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eelogic/webpack-renamechunk-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "rename",
+    "chunks",
+    "hash",
+    "code splitting"
+  ],
+  "author": {
+    "name": "ethanliang",
+    "email": "ethan@yunify.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eelogic/webpack-renamechunk-plugin/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "dependencies": {
+  },
+  "homepage": "https://github.com/eelogic/webpack-renamechunk-plugin#readme",
+  "_id": "webpack-renamechunk-plugin@0.0.1",
+  "scripts": {}
+}
