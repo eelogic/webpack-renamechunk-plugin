@@ -1,6 +1,6 @@
 {
   "name": "webpack-renamechunk-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Webpack plugin to rename split chunks before emitting files",
   "main": "index.js",
   "repository": {
@@ -28,6 +28,6 @@
   "dependencies": {
   },
   "homepage": "https://github.com/eelogic/webpack-renamechunk-plugin#readme",
-  "_id": "webpack-renamechunk-plugin@0.0.1",
+  "_id": "webpack-renamechunk-plugin@0.0.2",
   "scripts": {}
 }

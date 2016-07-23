@@ -16,7 +16,7 @@ this plugin check a new configuration option 'renameChunkFileName' in output. If
 First, import this plugin
 
 ```js
-var WebpackRenameChunkPlugin = require('webpack-renamechunk');
+var WebpackRenameChunkPlugin = require('webpack-renamechunk-plugin');
 ```
 
 Second, configure renameChunkFileName
