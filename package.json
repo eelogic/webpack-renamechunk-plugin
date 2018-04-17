@@ -1,6 +1,6 @@
 {
   "name": "webpack-renamechunk-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Webpack plugin to rename split chunks before emitting files",
   "main": "index.js",
   "repository": {
