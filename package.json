@@ -25,9 +25,13 @@
   },
   "readme": "",
   "readmeFilename": "README.md",
-  "dependencies": {
-  },
+  "dependencies": {},
   "homepage": "https://github.com/eelogic/webpack-renamechunk-plugin#readme",
   "_id": "webpack-renamechunk-plugin@0.0.2",
-  "scripts": {}
+  "scripts": {
+    "pretty": "prettier index.js --write"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.1"
+  }
 }
