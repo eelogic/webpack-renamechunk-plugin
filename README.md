@@ -21,6 +21,10 @@ var WebpackRenameChunkPlugin = require('webpack-renamechunk-plugin');
 
 Second, configure renameChunkFileName
 
+## For webpack v1
+
+You can add `renameChunkFileName` property to output configuration section:
+
 ```js
 output: {
   // Where to build results
@@ -42,5 +46,18 @@ At last, we add it in plugin list
 ```js
 plugins: [
   new WebpackRenameChunkPlugin()
+]
+```
+
+## For webpack v2+
+
+Since webpack v2+ no more support custom property in `output` configuration, you should pass options
+to plugin instance
+
+```js
+plugins: [
+  new WebpackRenameChunkPlugin({
+    renameChunkFileName: 'console/[id]/main.js'
+  })
 ]
 ```
